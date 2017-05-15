@@ -11,7 +11,7 @@ console.log('moves[0]: ', Moves[0]);
 function fillSquare(move) {
     return move.filled;
 }
-document.getElementById('1').innerHTML = fillSquare({ filled: "0" });
+// document.getElementById('1').innerHTML = fillSquare({filled: "0"});
 var turnCounter = 0;
 var cells = document.getElementsByClassName('cell');
 console.log('cells: ', cells);
@@ -19,9 +19,11 @@ var _loop_1 = function (i) {
     cells[i].addEventListener('click', function () {
         if (turnCounter % 2 === 0) {
             cells[i].innerHTML = fillSquare({ filled: "X" });
+            turnCounter++;
         }
         else {
             cells[i].innerHTML = fillSquare({ filled: "O" });
+            turnCounter++;
         }
     });
 };
