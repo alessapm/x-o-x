@@ -1,0 +1,13 @@
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 315px;
+  height: 315px;
+  /*border: 2px red solid;*/
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 2px navy solid;
+}
