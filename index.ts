@@ -1,15 +1,4 @@
-// interface Person {
-//   firstName: string;
-//   lastName: string;
-// }
 
-// function greeter(person: Person){
-//   return "Hello, " + person.firstName + " " + person.lastName;
-// }
-
-// let user = {firstName: "Jenna", lastName: "Smith"};
-
-// document.body.innerHTML = greeter(user);
 
 interface FilledSquare {
   filled: string;

@@ -1,7 +1,3 @@
-// interface Person {
-//   firstName: string;
-//   lastName: string;
-// }
 var Moves;
 (function (Moves) {
     Moves[Moves["X"] = 0] = "X";
