@@ -30,7 +30,7 @@ let turnCounter: number = 0;
 let cells: any = document.getElementsByClassName('cell');
  console.log('cells: ', cells);
 
- for (let i=0; i<cells.length; i++){
+ for (let i: number = 0; i < cells.length; i++){
     cells[i].addEventListener('click', ()=> {
       if (turnCounter%2 === 0){
         cells[i].innerHTML = fillSquare({filled: "X"});
@@ -41,5 +41,7 @@ let cells: any = document.getElementsByClassName('cell');
       }
     })
  }
+
+
 
 
